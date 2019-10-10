@@ -1,51 +1,60 @@
 <style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
-	}
+  h1,
+  /* figure, */
+  p {
+    text-align: center;
+    margin: 0 auto;
+  }
 
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
+  h1 {
+    font-size: 2.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 0 0.5em 0;
+  }
 
-	figure {
-		margin: 0 0 1em 0;
-	}
+  /* figure {
+    margin: 0 0 1em 0;
+  }
 
-	svg {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
+  svg {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 0 1em 0;
+  } */
 
-	p {
-		margin: 1em auto;
-	}
+  p {
+    margin: 1em auto;
+  }
 
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
+  @media (min-width: 480px) {
+    h1 {
+      font-size: 4em;
+    }
+  }
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+  <title>Carolina Doran</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1>Carolina Doran</h1>
+<h2>collective animal behaviour</h2>
+<h2>science outreach</h2>
+<h2>gender equality & inclusion</h2>
 
-<figure>
-	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svelte" x="0px" y="0px" viewBox="0 0 519 139" style="enable-background:new 0 0 519 139;" xml:space="preserve">
-<style type="text/css">
+<p>Site in development...</p>
+<p>
+  In the meantime - find me on twitter:
+  <a href="https://twitter.com/carolinadoran">@carolinadoran</a>
+</p>
+
+<!-- <figure>
+	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svelte" x="0px" y="0px" viewBox="0 0 519 139" style="enable-background:new 0 0 519 139;" xml:space="preserve"><style type="text/css">
 	.st0{fill:#159497;}
 	.st1{fill:#FFFFFF;}
 	.st2{fill:#4A4A55;}
-</style>
-<path id="back" class="st0" d="M110.2,28.4C99.8,13.5,79.3,9.1,64.4,18.6L38.4,35.2c-7.1,4.5-12,11.7-13.5,20  c-1.2,6.9-0.2,14,3.1,20.2c-2.2,3.4-3.8,7.2-4.5,11.2c-1.5,8.4,0.5,17.1,5.5,24.1c10.4,14.9,30.9,19.3,45.8,9.8l26.1-16.6  c7.1-4.5,12-11.7,13.5-20c1.2-6.9,0.1-14-3.1-20.2c2.2-3.4,3.8-7.2,4.5-11.2C117.2,44.1,115.2,35.5,110.2,28.4"/>
+</style><path id="back" class="st0" d="M110.2,28.4C99.8,13.5,79.3,9.1,64.4,18.6L38.4,35.2c-7.1,4.5-12,11.7-13.5,20  c-1.2,6.9-0.2,14,3.1,20.2c-2.2,3.4-3.8,7.2-4.5,11.2c-1.5,8.4,0.5,17.1,5.5,24.1c10.4,14.9,30.9,19.3,45.8,9.8l26.1-16.6  c7.1-4.5,12-11.7,13.5-20c1.2-6.9,0.1-14-3.1-20.2c2.2-3.4,3.8-7.2,4.5-11.2C117.2,44.1,115.2,35.5,110.2,28.4"/>
 <path id="front" class="st1" d="M61.9,112.2c-8.4,2.2-17.3-1.1-22.2-8.2c-3-4.2-4.2-9.4-3.3-14.5c0.1-0.8,0.4-1.6,0.6-2.4l0.5-1.5  l1.3,1c3.1,2.2,6.5,4,10.2,5.1l1,0.3l-0.1,1c-0.1,1.4,0.3,2.7,1.1,3.8c1.5,2.1,4.2,3.1,6.7,2.5c0.6-0.2,1.1-0.4,1.6-0.7l26-16.6  c1.3-0.8,2.2-2.1,2.4-3.6c0.3-1.5-0.1-3.1-1-4.4c-1.5-2.1-4.2-3.1-6.7-2.5c-0.6,0.2-1.1,0.4-1.6,0.7l-10,6.3c-1.6,1-3.4,1.8-5.3,2.3  c-8.4,2.2-17.3-1.1-22.2-8.2c-3-4.2-4.2-9.4-3.2-14.5c0.9-5,3.8-9.4,8.1-12.1L72,29.3c1.6-1,3.4-1.8,5.3-2.3  c8.4-2.2,17.3,1.1,22.2,8.2c3,4.2,4.2,9.4,3.3,14.5c-0.2,0.8-0.4,1.6-0.6,2.4l-0.5,1.5l-1.3-1c-3.1-2.3-6.5-4-10.2-5.1l-1-0.3l0.1-1  c0.1-1.4-0.3-2.8-1.1-3.9c-1.5-2.1-4.2-3.1-6.7-2.4c-0.6,0.2-1.1,0.4-1.6,0.7L53.8,57.3c-1.3,0.8-2.2,2.1-2.5,3.6  c-0.3,1.5,0.1,3.1,1,4.4c1.5,2.1,4.1,3.1,6.7,2.5c0.6-0.2,1.1-0.4,1.6-0.7l10-6.3c1.6-1,3.4-1.8,5.3-2.3c8.4-2.2,17.3,1.1,22.2,8.2  c3,4.2,4.2,9.4,3.3,14.5c-0.9,5-3.8,9.4-8.1,12.1l-26.1,16.6C65.6,110.9,63.8,111.7,61.9,112.2"/>
 <g>
 	<path class="st2" d="M150.8,85.9l8.3-3.1c2.5,5.4,7.3,9,13.7,9c6.5,0,10.8-3.2,10.8-9.2c0-6.5-6.5-8.8-13.5-11.2   c-8.3-3-17.4-6.2-17.4-17.1c0-8.4,6.9-15.6,19-15.6c10.1,0,16.4,5,18.4,11.8l-8.2,2.7c-1.4-3.4-5.1-6-10.9-6   c-5.7,0-9.1,2.6-9.1,7.2c0,4.9,5.5,6.8,12,9c8.6,3.2,18.8,6.8,18.8,19.2c0,11.4-8.9,17.8-20.4,17.8   C161.9,100.4,153.8,94.8,150.8,85.9z"/>
@@ -57,6 +66,4 @@
 </g>
 </svg>
 	<figcaption>HIGH FIVE!</figcaption>
-</figure>
-
-<p><strong>Go to <a href="/blog">/blog</a> to see content loaded from <a href="https://www.sanity.io">Sanity</a></strong></p>
+</figure> -->
