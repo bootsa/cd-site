@@ -4,6 +4,7 @@ import MdPerson from 'react-icons/lib/md/person'
 
 const hiddenDocTypes = listItem =>
   !['category', 'author', 'post', 'siteSettings'].includes(listItem.getId())
+  // !['category', 'author', 'post', 'project', 'siteSettings'].includes(listItem.getId())
 
 export default () =>
   S.list()
@@ -22,6 +23,10 @@ export default () =>
         .title('Blog posts')
         .schemaType('post')
         .child(S.documentTypeList('post').title('Blog posts')),
+      // S.listItem()
+      //   .title('Projects')
+      //   .schemaType('project')
+      //   .child(S.documentTypeList('project').title('Projects')),
       S.listItem()
         .title('Authors')
         .icon(MdPerson)
