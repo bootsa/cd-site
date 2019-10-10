@@ -62,11 +62,11 @@ export default {
         }
       ]
     },
-    {
-      name: 'body',
-      type: 'bodyPortableText',
-      title: 'Body'
-    }
+    // {
+    //   name: 'body',
+    //   type: 'bodyPortableText',
+    //   title: 'Body'
+    // }
   ],
   orderings: [
     {
