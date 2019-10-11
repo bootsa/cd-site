@@ -1,18 +1,15 @@
 <script context="module">
   import client from '../../sanityClient'
 	export function preload({ params, query }) {
-    return client.fetch('*[_type == "project" && defined(slug.current) && publishedAt < now()]|order(publishedAt desc)').then(projects => {
+    return client.fetch('*[_type == "project" && defined(slug.current)').then(projects => {
 			return { projects };
 		}).catch(err => this.error(500, err));
 	}
 </script>
 
 <script>
-  export let projects;
-
-  function formatDate(date) {
-    return new Date(date).toLocaleDateString()
-  }
+	export let projects;
+	console.log('opened projects page...')
 </script>
 
 <style>
@@ -34,6 +31,6 @@
 				tell Sapper to load the data for the page as soon as
 				the user hovers over the link or taps it, instead of
 				waiting for the 'click' event -->
-		<li><a rel='prefetch' href='blog/{project.slug.current}'>{project.title}</a> ({formatDate(project.publishedAt)})</li>
+		<li><a rel='prefetch' href='project/{project.slug.current}'>{project.title}</a></li>
 	{/each}
 </ul>
