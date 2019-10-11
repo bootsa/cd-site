@@ -21,6 +21,7 @@
     }`
 
     const query = filter + projection
+    console.log(query);
     const project = await client.fetch(query, { slug }).catch(err => this.error(500, err))
     return { project: {
       ...project,
