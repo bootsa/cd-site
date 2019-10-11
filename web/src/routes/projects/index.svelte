@@ -1,7 +1,7 @@
 <script context="module">
   import client from '../../sanityClient'
 	export function preload({ params, query }) {
-    return client.fetch('*[_type == "project" && defined(slug.current)').then(projects => {
+    return client.fetch('*[_type == "project" && defined(slug.current)]').then(projects => {
 			return { projects };
 		}).catch(err => this.error(500, err));
 	}
