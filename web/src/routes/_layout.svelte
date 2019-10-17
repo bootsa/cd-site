@@ -1,5 +1,5 @@
 <script>
-  import Nav from '../components/Nav.svelte';
+  // import Nav from '../components/Nav.svelte';
   // import { stores } from "@sapper/app";
   // import { Icons, Icon, Nav, NavItem } from "@sveltejs/site-kit";
 
@@ -26,7 +26,7 @@
   <NavItem segment="projects">Projects</NavItem>
 </Nav> -->
 
-<Nav {segment} />
+<!-- <Nav {segment} /> -->
 
 <main>
   <slot />
