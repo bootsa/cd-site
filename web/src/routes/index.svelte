@@ -49,6 +49,8 @@
   <a href="https://twitter.com/carolinadoran">@carolinadoran</a>
 </p>
 
+<!-- <a class="twitter-timeline" data-lang="en" data-dnt="true" data-theme="light" href="https://twitter.com/CarolinaDoran?ref_src=twsrc%5Etfw">Tweets by CarolinaDoran</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  -->
+
 <!-- <figure>
 	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svelte" x="0px" y="0px" viewBox="0 0 519 139" style="enable-background:new 0 0 519 139;" xml:space="preserve"><style type="text/css">
 	.st0{fill:#159497;}
