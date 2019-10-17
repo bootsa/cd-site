@@ -39,7 +39,7 @@
   }
 
   main {
-    margin-top: 2rem;
+    margin: 2rem;
   }
 
   h1 {
@@ -70,7 +70,7 @@
   }
 
   .title-container {
-    width:30vw;
+    width:auto;
     height:100%;
     display: flex;
     flex-direction: column;
