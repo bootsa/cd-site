@@ -1,9 +1,10 @@
 {
   "private": true,
-  "name": "sanity-sapper-blog-studio",
-  "version": "1.0.1",
+  "name": "carolina-doran-site-backend",
+  "description": "Customised Sanity Studio backend",
+  "version": "0.1.0",
   "main": "package.json",
-  "author": "Sanity <hello@sanity.io>",
+  "author": "bootsa <dev@bootsa.net>",
   "scripts": {
     "dev": "sanity start",
     "format": "prettier-eslint --write \"**/*.js\" \"!node_modules/**\"",

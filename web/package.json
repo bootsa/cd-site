@@ -1,8 +1,9 @@
 {
   "private": true,
-  "name": "sanity-sapper-blog-web",
-  "description": "Sapper frontend",
-  "version": "0.0.2",
+  "name": "carolina-doran-site-frontend",
+  "description": "Website of Carolina Doran",
+  "version": "0.1.0",
+  "author": "bootsa <dev@bootsa.net>",
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper export",
