@@ -1,5 +1,4 @@
 <script context="module">
-  console.log("entered project page module");
   import blocksToHtml from "@sanity/block-content-to-html";
   import client from "../../sanityClient";
   import serializers from "../../components/serializers";
@@ -7,7 +6,6 @@
     // the `slug` parameter is available because
     // this file is called [slug].html
     const { slug } = params;
-    console.log(slug);
     const filter = '*[_type == "project" && slug.current == $slug][0]';
     const projection = `{
       ...,
@@ -23,12 +21,9 @@
     }`;
 
     const query = filter + projection;
-    console.log(query);
     const project = await client
       .fetch(query, { slug })
       .catch(err => this.error(500, err));
-    console.log("about to return from project page module");
-    console.log(project);
     return {
       project: {
         ...project,
@@ -44,8 +39,6 @@
 
 <script>
   export let project;
-
-  debugger;
 </script>
 
 <svelte:head>

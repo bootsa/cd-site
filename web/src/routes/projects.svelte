@@ -9,7 +9,6 @@
 
 <script>
 	export let projects;
-	console.log('opened projects page...')
 </script>
 
 <style>
