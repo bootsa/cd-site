@@ -25,8 +25,8 @@ export default {
                 },
                 {
                   buildHookId: '5d9f71cb74db5f48020bb3b7',
-                  title: 'Blog Website',
-                  name: 'cd-site',
+                  title: 'Website',
+                  name: 'carolinadoran',
                   apiId: '51287456-d1e0-4338-96b2-2d7db619a232'
                 }
               ]
@@ -39,7 +39,7 @@ export default {
             value: 'https://github.com/bootsa/cd-site',
             category: 'Code'
           },
-          {title: 'Frontend', value: 'https://cd-site.netlify.com', category: 'apps'}
+          {title: 'Frontend', value: 'https://carolinadoran.netlify.com', category: 'apps'}
         ]
       }
     },
