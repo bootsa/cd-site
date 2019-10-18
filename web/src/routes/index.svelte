@@ -81,14 +81,21 @@
     display: inline-block;
     text-decoration: none;
     padding: 1rem 2rem;
-    border-bottom: dotted lightgrey;
+    margin: 1rem;
+    border: dotted lightgrey 0.1rem;
     border-radius: 15px;
+    box-shadow: 4px 4px 6px lightgrey;
   }
   a:hover {
     background-color: #eee;
   }
-  a:active {
+  a:focus {
     background-color: rgb(255, 184, 184);
+    outline: none;
+  }
+  a:active {
+    background-color: rgb(184, 184, 255);
+    outline: none;
   }
 </style>
 

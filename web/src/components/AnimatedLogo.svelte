@@ -53,6 +53,7 @@
     height: inherit;
     display: grid;
     grid-template-columns: inherit 1fr;
+    align-items: center;
   }
 
   .logo-container {
@@ -67,7 +68,7 @@
     stroke: #42b11b;
     fill: #42b11b;
     fill-opacity: 0;
-    stroke-width: 0.01em;
+    stroke-width: 0.01rem;
     stroke-linejoin: bevel;
     transition: 2s;
   }
@@ -75,7 +76,7 @@
     stroke: #174b05;
     fill: #174b05;
     fill-opacity: 0;
-    stroke-width: 0.01em;
+    stroke-width: 0.01rem;
     stroke-linejoin: bevel;
     transition: 2s;
   }
