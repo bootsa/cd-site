@@ -1,11 +1,5 @@
 <script>
-  // import Nav from '../components/Nav.svelte';
-  // import { stores } from "@sapper/app";
-  // import { Icons, Icon, Nav, NavItem } from "@sveltejs/site-kit";
-
   export let segment;
-
-  // const { page } = stores();
 </script>
 
 <style>
@@ -20,13 +14,6 @@
     overflow-x: hidden;
   }
 </style>
-
-<!-- <Nav {segment} {page} logo="cd-logo-horizontal.svg">
-  <NavItem segment="about">About</NavItem>
-  <NavItem segment="projects">Projects</NavItem>
-</Nav> -->
-
-<!-- <Nav {segment} /> -->
 
 <main>
   <slot />
