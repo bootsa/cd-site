@@ -2,8 +2,7 @@
   "background_color": "#ffffff",
   "theme_color": "#174b05",
   "name": "Carolina Doran",
-  "short_name": "CarolinaDoran",
-  "display": "minimal-ui",
+  "display": "standalone",
   "start_url": "/",
   "icons": [
     {
