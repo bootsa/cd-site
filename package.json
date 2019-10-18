@@ -1,7 +1,9 @@
 {
   "private": true,
-  "name": "sanity-sapper-blog",
-  "version": "1.0.1",
+  "name": "carolina-doran-site",
+  "description": "Website of Carolina Doran - uses Sapper based frontend and Sanity based backend",
+  "version": "0.1.0",
+  "author": "bootsa <dev@bootsa.net>",
   "scripts": {
     "build": "lerna run build --parallel",
     "build-studio": "(cd studio && npm run build)",
@@ -15,6 +17,6 @@
   },
   "devDependencies": {
     "@sanity/cli": "^0.142.7",
-    "lerna": "^3.14.0"
+    "lerna": "^3.18.1"
   }
 }
